@@ -11,7 +11,7 @@ require (
 	github.com/YakDriver/go-version v0.1.0
 	github.com/YakDriver/regexache v0.25.0
 	github.com/YakDriver/smarterr v0.8.0
-	github.com/aws/aws-sdk-go-v2 v1.42.0
+	github.com/aws/aws-sdk-go-v2 v1.43.3
 	github.com/aws/aws-sdk-go-v2/config v1.32.26
 	github.com/aws/aws-sdk-go-v2/credentials v1.19.25
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.29
@@ -105,7 +105,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/docdbelastic v1.21.8
 	github.com/aws/aws-sdk-go-v2/service/drs v1.39.5
 	github.com/aws/aws-sdk-go-v2/service/dsql v1.14.7
-	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.59.1
+	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.62.3
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.309.0
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.58.5
 	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.39.7
@@ -221,7 +221,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/resourcegroups v1.34.3
 	github.com/aws/aws-sdk-go-v2/service/resourcegroupstaggingapi v1.33.4
 	github.com/aws/aws-sdk-go-v2/service/rolesanywhere v1.23.8
-	github.com/aws/aws-sdk-go-v2/service/route53 v1.63.4
+	github.com/aws/aws-sdk-go-v2/service/route53 v1.65.5
 	github.com/aws/aws-sdk-go-v2/service/route53domains v1.36.4
 	github.com/aws/aws-sdk-go-v2/service/route53profiles v1.10.4
 	github.com/aws/aws-sdk-go-v2/service/route53recoverycontrolconfig v1.33.7
@@ -251,8 +251,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sfn v1.43.1
 	github.com/aws/aws-sdk-go-v2/service/shield v1.35.4
 	github.com/aws/aws-sdk-go-v2/service/signer v1.33.7
-	github.com/aws/aws-sdk-go-v2/service/sns v1.40.2
-	github.com/aws/aws-sdk-go-v2/service/sqs v1.44.1
+	github.com/aws/aws-sdk-go-v2/service/sns v1.42.3
+	github.com/aws/aws-sdk-go-v2/service/sqs v1.46.3
 	github.com/aws/aws-sdk-go-v2/service/ssm v1.69.4
 	github.com/aws/aws-sdk-go-v2/service/ssmcontacts v1.32.9
 	github.com/aws/aws-sdk-go-v2/service/ssmincidents v1.40.7
@@ -281,7 +281,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/workspaces v1.70.1
 	github.com/aws/aws-sdk-go-v2/service/workspacesweb v1.40.8
 	github.com/aws/aws-sdk-go-v2/service/xray v1.37.4
-	github.com/aws/smithy-go v1.27.2
+	github.com/aws/smithy-go v1.27.6
 	github.com/beevik/etree v1.6.0
 	github.com/cedar-policy/cedar-go v1.8.0
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
@@ -322,8 +322,8 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/pquerna/otp v1.5.0
 	github.com/shopspring/decimal v1.4.0
-	go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws v0.69.0
-	go.opentelemetry.io/otel v1.44.0
+	go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws v0.70.0
+	go.opentelemetry.io/otel v1.45.0
 	golang.org/x/crypto v0.53.0
 	golang.org/x/text v0.38.0
 	golang.org/x/tools v0.47.0
@@ -338,12 +338,12 @@ require (
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
 	github.com/armon/go-radix v1.0.0 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.13 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.29 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.29 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.34 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.34 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.30 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.12 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.22 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.12.6 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.12.11 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.29 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.30 // indirect
 	github.com/aws/aws-sdk-go-v2/service/signin v1.2.1 // indirect
@@ -354,7 +354,7 @@ require (
 	github.com/cloudflare/circl v1.6.3 // indirect
 	github.com/evanphx/json-patch v0.5.2 // indirect
 	github.com/fatih/color v1.18.0 // indirect
-	github.com/go-logr/logr v1.4.3 // indirect
+	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
@@ -384,14 +384,14 @@ require (
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
 	github.com/zclconf/go-cty v1.18.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/otel/metric v1.44.0 // indirect
-	go.opentelemetry.io/otel/trace v1.44.0 // indirect
+	go.opentelemetry.io/otel/metric v1.45.0 // indirect
+	go.opentelemetry.io/otel/trace v1.45.0 // indirect
 	go.yaml.in/yaml/v4 v4.0.0-rc.6 // indirect
 	golang.org/x/exp v0.0.0-20220921023135-46d9e7742f1e // indirect
 	golang.org/x/mod v0.37.0 // indirect
 	golang.org/x/net v0.56.0 // indirect
 	golang.org/x/sync v0.21.0 // indirect
-	golang.org/x/sys v0.46.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217 // indirect
 	google.golang.org/grpc v1.79.3 // indirect
